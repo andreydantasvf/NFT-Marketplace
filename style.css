@@ -27,6 +27,8 @@ body {
     background: linear-gradient(#000, #67267E 220%);
 }
 
+ /* --------- CONFIGS PADRÃO----------- */
+
 .btn {
     background: linear-gradient(98.62deg, #FFAC30 -27.91%, #FD01A7 102.96%);
 
@@ -40,6 +42,8 @@ body {
     font-family: 'Quicksand', sans-serif;
     cursor: pointer;
 }
+
+ /* --------- HEADER----------- */
 
 header {
     width: 90%;
@@ -70,6 +74,8 @@ header .menu li a {
     line-break: 2.4rem;
 }
 
+ /* --------- MAIN ----------- */
+
 main {
     width: 90%;
     display: flex;
@@ -77,7 +83,10 @@ main {
     align-items: center;
 }
 
+ /* --------- SECTION HOME----------- */
+
 section#home {
+    height: calc(100vh - 12rem);
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -126,4 +135,126 @@ section#home .content-text .description-statistics p{
 section#home .content-img img {
     width: 46.8rem;
     height: 50rem;
+}
+
+ /* --------- SECTION PROJECTS----------- */
+section#projects {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-top: 7rem;
+}
+
+section#projects h3 {
+    font-size: 2.7rem;
+    font-weight: 600;
+
+    margin-bottom: 7rem;
+}
+
+.menu-filters-marketplace {
+    width: 100%;
+
+    margin-bottom: 7rem;
+}
+
+.menu-filters-marketplace ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5.6rem;
+    list-style: none;
+}
+
+.menu-filters-marketplace ul li a{
+    border: none;
+    border-radius: 0.8rem;
+    padding: 1.2rem 1.6rem;
+
+    background: rgba(55, 55, 55, 0.3);
+    color: #FFFEFD;
+    font-size: 1.6rem;
+    font-weight: 500;
+
+    display: inline-block;
+    text-align: center;
+    width: 13rem;
+    height: 4.8rem;
+}
+
+.menu-filters-marketplace ul li a.active {
+    background: linear-gradient(98.62deg, rgba(255, 172, 48, 0.3) -27.91%, rgba(253, 1, 167, 0.3) 102.96%);
+}
+
+.cards-marketplace {
+    width: 100%;
+    display: grid;
+    justify-content: space-between;
+    gap: 3.9rem;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    margin-bottom: 7rem;
+}
+
+.cards-marketplace .card {
+    width: fit-content;
+    padding: 2.3rem;
+    background: rgba(55, 55, 55, 0.3);
+    border-radius: 3rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.cards-marketplace .card .nft-image{
+    width: 35.9rem;
+    height: 35.9rem;
+
+    margin-bottom: 2.3rem;
+}
+
+.cards-marketplace .card .details-card{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title-description-card {
+    font-weight: 500;
+    font-size: 1.9rem;
+}
+
+.information-description-card {
+    color: rgba(255, 254, 253, 0.2);
+    font-weight: 500;
+    font-size: 1.4rem;
+}
+
+.creator {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.creator img {
+    width: 4.8rem;
+    height: 4.8rem;
+}
+
+section#projects button {
+    padding: 1.6rem 4rem;
+    border-radius: .8rem;
+    border: none;
+
+    background: rgba(55, 55, 55, 0.3);
+    color: #FFFEFD;
+    font-weight: 500;
+    font-size: 1.6rem;
+
+    cursor: pointer;
 }
