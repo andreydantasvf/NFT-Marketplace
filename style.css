@@ -258,3 +258,81 @@ section#projects button {
 
     cursor: pointer;
 }
+
+ /* --------- SECTION NFT-CREATOR----------- */
+section#nft-creator {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin: 7rem;
+}
+
+section#nft-creator h3 {
+    font-weight: 600;
+    font-size: 2.7rem;
+    
+    margin-top: .8rem;
+    margin-bottom: 2.4rem;
+}
+
+section#nft-creator .options-cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5.2rem;
+    margin-top: 2.4rem;
+}
+
+section#nft-creator .options-cards .card {
+    background: rgb(55, 55, 55);
+    border-radius: 2rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+
+    width: 39.3rem;
+    height: 35.9rem;
+}
+
+section#nft-creator .options-cards .card .title-card{
+    font-weight: 600;
+    font-size: 1.9rem;
+}
+
+section#nft-creator .options-cards .card .details-card {
+    color: #FFFEFD;
+
+    width: 19rem;
+    display: inline-block;
+
+    text-align: center;
+}
+
+section#nft-creator .buttons {
+    margin-top: 5.6rem;
+}
+
+section#nft-creator .buttons button {
+    border-radius: 1rem;
+    border: none;
+
+    padding: 2rem;
+    width: 16rem;
+
+    font-size: 1.9rem;
+    color: #FFFEFD;
+}
+
+section#nft-creator .buttons .button-create {
+    background: linear-gradient(98.62deg, #FFAC30 -27.91%, #FD01A7 102.96%);
+}
+
+section#nft-creator .buttons .button-watch {
+    border: 1px solid #FD01A7;
+    background: none;
+    margin-left: 3rem;
+}
