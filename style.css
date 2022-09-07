@@ -336,3 +336,74 @@ section#nft-creator .buttons .button-watch {
     background: none;
     margin-left: 3rem;
 }
+
+ /* --------- SECTION CREATORS-WEEK----------- */
+section#creators-week {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section#creators-week h3 {
+    font-weight: 600;
+    font-size: 2.7rem;
+    
+    margin-top: .8rem;
+    margin-bottom: 2.4rem;
+}
+
+section .creators-week-nft {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-between;
+    gap: 3.2rem;
+}
+
+.creators-week-nft .creator {
+    background: rgba(55, 55, 55, 0.3);
+
+    width: 42rem;
+    height: 12.5rem;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.creators-week-nft .creator img {
+    width: 12.2rem;
+    height: 10rem;
+}
+
+.creators-week-nft .creator .details-nft-week {
+    text-align: center;
+}
+
+.creators-week-nft .creator .details-nft-week .creator-name-nft {
+    font-size: 1.9rem;
+    font-weight: 600;
+    color: #FFF;
+}
+
+.creators-week-nft .creator .details-nft-week .value-eth {
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: #FFFEFD;
+
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1.8rem;
+}
+
+.creators-week-nft .creator .details-nft-week .value-eth img {
+    width: 2.4rem;
+    height: 3.9rem;
+}
+
+.creators-week-nft .creator a {
+    font-size: 3.5rem;
+
+    cursor: pointer;
+}
